@@ -6,7 +6,7 @@ html {
 
 .home-container {
   min-height: calc(100vh - 80px);
-  background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 25%, #4c1d95 50%, #831843 75%, #9f1239 100%);
+   background: linear-gradient(160deg, #0c2d48 0%, #464939 40%, #297191 75%, #188338 100%);
   background-size: 400% 400%;
   animation: gradientShift 15s ease infinite;
   padding: 0;

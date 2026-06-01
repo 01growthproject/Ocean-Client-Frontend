@@ -2,11 +2,12 @@
 
 .form-wrapper {
   min-height: calc(100vh - 60px);
-  background: linear-gradient(135deg, #f0f9ff 0%, #e0e7ff 50%, #f3e8ff 100%);
+ background: linear-gradient(160deg, #0c2d48 0%, #464939 40%, #297191 75%, #188338 100%);
   background-size: 200% 200%;
   animation: gradientFlow 10s ease infinite;
   padding: 75px 20px;
   position: relative;
+  top: 600px;
 }
 
 @keyframes gradientFlow {
@@ -28,7 +29,7 @@
 }
 
 .form-header {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #ec4899 100%);
+ background: linear-gradient(160deg, #0c2d48 0%, #464939 40%, #297191 75%, #188338 100%);
   background-size: 200% 200%;
   animation: gradientShift 8s ease infinite;
   color: white;
@@ -91,7 +92,7 @@
 
 .progress-fill {
   height: 100%;
-  background: linear-gradient(90deg, #667eea 0%, #764ba2 50%, #ec4899 100%);
+ background: linear-gradient(160deg, #0c2d48 0%, #464939 40%, #297191 75%, #188338 100%);
   transition: width 0.4s ease;
   border-radius: 20px;
   position: relative;
@@ -160,7 +161,7 @@
 }
 
 .step-indicator.completed:not(:last-child)::after {
-  background: linear-gradient(90deg, #667eea, #764ba2);
+ background: linear-gradient(160deg, #0c2d48 0%, #464939 40%, #297191 75%, #188338 100%);
 }
 
 .step-number {
@@ -180,7 +181,7 @@
 }
 
 .step-indicator.active .step-number {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+ background: linear-gradient(160deg, #0c2d48 0%, #464939 40%, #297191 75%, #188338 100%);
   color: white;
   box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
   transform: scale(1.1);
@@ -250,7 +251,7 @@
   display: block;
   width: 4px;
   height: 20px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(160deg, #0c2d48 0%, #464939 40%, #297191 75%, #188338 100%);
   border-radius: 2px;
 }
 
@@ -420,7 +421,7 @@
   top: -14px;
   left: 50%;
   transform: translateX(-50%);
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+   background: linear-gradient(160deg, #0c2d48 0%, #464939 40%, #297191 75%, #188338 100%);
   color: white;
   padding: 4px 10px;
   border-radius: 5px;
@@ -568,7 +569,7 @@
 .edit-btn {
   margin-top: 16px;
   padding: 10px 20px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(160deg, #0c2d48 0%, #464939 40%, #297191 75%, #188338 100%);
   color: white;
   border: none;
   border-radius: 8px;
@@ -629,7 +630,7 @@
 }
 
 .next-btn {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(160deg, #0c2d48 0%, #464939 40%, #297191 75%, #188338 100%);
   color: white;
   box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
   margin-left: auto;

@@ -2,11 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 
 :root {
-  --primary: #667eea;
-  --primary-dark: #5568d3;
+  --primary: #606370;
+  --primary-dark: #030613;
   --secondary: #764ba2;
   --gradient: linear-gradient(135deg, #1a1f31 0%, #764ba2 100%);
-  --gradient-light: linear-gradient(135deg, #818cf8 0%, #a78bfa 100%);
+  --gradient-light: linear-gradient(135deg, #0e101d 0%, #151418 100%);
   
   --bg-white: #ffffff;
   --bg-light: #f8f9fa;
@@ -48,7 +48,7 @@ body {
 /* ==================== LANDING WRAPPER ==================== */
 .landing-wrapper {
   min-height: 100vh;
-  background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 25%, #4c1d95 50%, #831843 75%, #9f1239 100%);
+ background: linear-gradient(160deg, #0c2d48 0%, #464939 40%, #297191 75%, #188338 100%);
   background-size: 400% 400%;
   animation: gradientShift 15s ease infinite;
   position: relative;
@@ -160,7 +160,7 @@ body {
   left: 20px;
   right: 20px;
   border-radius: 18px;
-  background: rgba(15, 23, 42, 0.55);
+  background: #ffffff 40%;
   backdrop-filter: blur(24px) saturate(160%);
   -webkit-backdrop-filter: blur(24px) saturate(160%);
   box-shadow: 0 2px 0 rgba(255, 255, 255, 0.06), 0 8px 32px rgba(0, 0, 0, 0.3);
@@ -198,9 +198,9 @@ body {
   gap: 15px;
 }
 
-.nav-logo-img {
+.nav-logo-imgs {
   width: 190px;
-  height: 62px;
+  height: 82px;
   object-fit: contain;
   border-radius: var(--radius-md);
   transition: all 0.3s ease;
@@ -236,7 +236,7 @@ body {
   align-items: center;
   gap: 10px;
   padding: 10px 26px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(24, 88, 206, 0.829);
   color: #e2e8f0;
   text-decoration: none;
   border-radius: 12px;
@@ -249,7 +249,7 @@ body {
 
 .nav-login-btn:hover {
   transform: translateY(-2px);
-  background: rgba(167, 139, 250, 0.25);
+  background: rgba(78, 75, 87, 0.25);
   border-color: rgba(167, 139, 250, 0.6);
   color: #ffffff;
   box-shadow: 0 6px 20px rgba(167, 139, 250, 0.3);
@@ -270,6 +270,7 @@ body {
 section.hero-section {
    background: transparent;
    padding: 140px 40px 100px;
+   top: 100px;  
 }
 
 

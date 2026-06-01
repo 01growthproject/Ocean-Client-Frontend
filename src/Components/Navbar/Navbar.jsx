@@ -37,7 +37,7 @@ const Navbar = () => {
             <div className="nav-container">
                 {/* Logo */}
                 <div className="nav-logo" onClick={() => navigate("/home")}>
-                    <img src="/logo.jpg" alt="Logo" className="nav-logo-img" />
+                    <img src="/oceanlogo.png" alt="Logo" className="nav-logo-imgs" />
                     <div className="nav-logo-text">
                         {/* <h2>Growth Overseas</h2>
                         <span>International Edutech</span> */}
@@ -85,7 +85,7 @@ const Navbar = () => {
                 <div className={`mobile-menu ${menuOpen ? 'open' : ''}`}>
                     <div className="mobile-menu-header">
                         <div className="mobile-logo">
-                            <img src="/logo.jpg" alt="Logo" className="mobile-logo-img" />
+                            <img src="" alt="Logo" className="mobile-logo-img" />
                             <div className="mobile-logo-text">
                                 <span>Growth Overseas</span>
                                 <span>International Edutech</span>

@@ -66,9 +66,9 @@
     transform: translateY(-1px);
 }
 
-.nav-logo-img {
+.nav-logo-imgs {
     width: 150px;
-    height: 48px;
+    height: 82px;
     object-fit: contain;
     border-radius: 8px;
     transition: var(--transition);

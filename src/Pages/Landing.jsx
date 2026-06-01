@@ -16,7 +16,7 @@ const Landing = () => {
       <nav className="landing-nav">
         <div className="nav-container">
           <div className="nav-logo">
-            <img src="/logo.jpg" alt="Logo" className="nav-logo-img" />
+            <img src="/oceanlogo.png" alt="Logo" className="nav-logo-imgs" />
             {/* <div className="nav-logo-text">
               <h2>Growth Overseas</h2>
               <span>International Edutech</span>
@@ -141,15 +141,15 @@ const Landing = () => {
               <div className="footer-logo">
                 {/* <span className="footer-logo-icon">🌍</span> */}
                 <div className="footer-logo-text">
-                  <h3>Growth Overseas</h3>
-                  <span>International Edutech</span>
+                  <h3>Ocean Global Overseas</h3>
+                  <span></span>
                 </div>
               </div>
               <p className="footer-tagline">
                 Empowering dreams • Connecting futures • Building success
               </p>
               <p className="footer-copyright">
-                © 2018 Growth Overseas International Edutech. All rights reserved.
+                © 2018 Ocean Global Overseas. All rights reserved.
               </p>
             </div>
 
@@ -161,11 +161,9 @@ const Landing = () => {
 
               <div className="footer-column">
                 <h4>Contact</h4>
-                <p>📞 +91 98545 90005</p>
+                <p>📞 +91 76966 65819</p>
                 <p>📍 Zirakpur, Punjab</p>
-                <p>🌐 First floor, SCO 10-11,
-                  Ambala Road,
-                  Opposite to ICICI Bank
+                <p>🌐SCO 30, 2nd Floor, Chaura Bazar, Near Kohinoor Dhaba
                 </p>
 
               </div>

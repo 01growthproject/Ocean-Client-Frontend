@@ -1,6 +1,5 @@
 /* ==================== GLOBAL STYLES & DESIGN SYSTEM ==================== */
 :root {
-  /* Modern Professional Color Palette */
   --primary-50: #f0f9ff;
   --primary-100: #e0f2fe;
   --primary-200: #bae6fd;
@@ -12,19 +11,16 @@
   --primary-800: #075985;
   --primary-900: #0c4a6e;
 
-  /* Accent Colors */
   --accent-purple: #8b5cf6;
   --accent-pink: #ec4899;
   --accent-indigo: #6366f1;
-  
-  /* Gradient Combinations */
+
   --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   --gradient-modern: linear-gradient(135deg, #0ea5e9 0%, #8b5cf6 50%, #ec4899 100%);
   --gradient-soft: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   --gradient-hero: linear-gradient(135deg, #1e3a8a 0%, #4c1d95 50%, #831843 100%);
   --gradient-card: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
-  
-  /* Neutral Colors */
+
   --gray-50: #f9fafb;
   --gray-100: #f3f4f6;
   --gray-200: #e5e7eb;
@@ -35,8 +31,7 @@
   --gray-700: #374151;
   --gray-800: #1f2937;
   --gray-900: #111827;
-  
-  /* Semantic Colors */
+
   --success: #10b981;
   --success-light: #d1fae5;
   --error: #ef4444;
@@ -45,8 +40,7 @@
   --warning-light: #fef3c7;
   --info: #3b82f6;
   --info-light: #dbeafe;
-  
-  /* Shadows */
+
   --shadow-xs: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
   --shadow-sm: 0 2px 4px 0 rgba(0, 0, 0, 0.06);
   --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
@@ -54,16 +48,14 @@
   --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
   --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
   --shadow-colored: 0 10px 30px -5px rgba(102, 126, 234, 0.3);
-  
-  /* Border Radius */
+
   --radius-sm: 6px;
   --radius-md: 10px;
   --radius-lg: 14px;
   --radius-xl: 18px;
   --radius-2xl: 24px;
   --radius-full: 9999px;
-  
-  /* Spacing */
+
   --spacing-xs: 4px;
   --spacing-sm: 8px;
   --spacing-md: 12px;
@@ -71,6 +63,19 @@
   --spacing-xl: 24px;
   --spacing-2xl: 32px;
   --spacing-3xl: 48px;
+}
+
+/* Yeh naya add kiya */
+label {
+  text-transform: none;      /* ← ALL CAPS band */
+  letter-spacing: normal;    /* ← spacing normal */
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+
+/* Buttons aur inputs pe bhi */
+button, input, select, textarea {
+  text-transform: none;
 }
 
 * {
@@ -81,21 +86,27 @@
 
 html {
   scroll-behavior: smooth;
+  width: 100%;
+  overflow-x: hidden;
   -webkit-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
 }
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
   line-height: 1.6;
   color: var(--gray-800);
-  background: var(--gray-50);
+  /* background REMOVED — har page apna background set karta hai */
+  width: 100%;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
 }
 
 /* ==================== RESPONSIVE UTILITIES ==================== */
@@ -113,17 +124,15 @@ body {
 }
 
 /* ==================== TOUCH TARGETS ==================== */
+/* Sirf buttons pe apply — anchor tags pe nahi (nav/cta links break hote the) */
 button,
-a,
 input[type="submit"],
 input[type="button"] {
   min-height: 44px;
-  min-width: 44px;
 }
 
 @media (max-width: 768px) {
   button,
-  a,
   input[type="submit"],
   input[type="button"] {
     min-height: 48px;

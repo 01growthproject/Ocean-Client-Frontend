@@ -41,6 +41,7 @@ html {
   min-height: calc(100vh - 60px);
   background: var(--bg-primary);
   padding: var(--spacing-xl);
+  padding-top: 100px;
 }
 
 .admin-container {
@@ -73,7 +74,7 @@ html {
   font-weight: 800;
   margin: 0;
   letter-spacing: -0.3px;
-  background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 40%, #7c3aed 100%);
+  background: linear-gradient(160deg, #0c2d48 0%, #464939 40%, #297191 75%, #188338 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -84,7 +85,7 @@ html {
   font-size: 16px;
   margin: 0;
   font-weight: 700;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+ background: linear-gradient(160deg, #0c2d48 0%, #464939 40%, #297191 75%, #188338 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -170,7 +171,7 @@ html {
 }
 
 .btn-action.edit {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(160deg, #0c2d48 0%, #464939 40%, #297191 75%, #188338 100%);
   color: #ffffff;
   border-color: #1d4ed8;
 }
@@ -201,7 +202,7 @@ html {
 
 /* PDF Download Button */
 .btn-pdf {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(160deg, #0c2d48 0%, #464939 40%, #297191 75%, #188338 100%);
   color: white;
   border: 1px solid rgba(5, 150, 105, 0.3);
   padding: var(--spacing-sm) var(--spacing-lg);
@@ -824,7 +825,7 @@ html {
 .client-passport-photo {
   width: 100%;
   max-width: 280px;
-  height: 350px;
+  height: 350px; 
   object-fit: cover;
   border-radius: var(--border-radius-md);
   box-shadow: var(--shadow-lg);
