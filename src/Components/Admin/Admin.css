@@ -42,6 +42,7 @@ html {
   background: var(--bg-primary);
   padding: var(--spacing-xl);
   padding-top: 100px;
+  margin-top: 110rem;
 }
 
 .admin-container {
