@@ -6,6 +6,7 @@ import "./Styles/home.css";
 const HomeContent = () => {
   return (
     <>
+    
       <Navbar />
       <div className="home-container">
         {/* Hero Section */}
